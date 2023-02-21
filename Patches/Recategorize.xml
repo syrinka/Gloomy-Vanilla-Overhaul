@@ -35,23 +35,20 @@
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="GL_DoorFrame"]/designationCategory
-					</xpath>
+					<xpath>Defs/ThingDef[defName="GL_DoorFrame"]/designationCategory</xpath>
 					<value>
 						<designationCategory>OldStyleDeco</designationCategory>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
-						<!-- General -->
 						defName="WardrobeA" or 
  						defName="GL_TablewareShelf" or 
 						defName="GL_Cupboard" or
 						defName="RGK_Manger" or 
 						defName="RGK_DogBowl" or 
 						defName="GL_Locker" or 
-						defName="RKGWineRackB"
-						<!-- Lighting -->
+						defName="RKGWineRackB" or
 						defName="RGK_lamp" or
 						defName="RGK_lampE" or
 						defName="GL_Wall_Lamp" or
