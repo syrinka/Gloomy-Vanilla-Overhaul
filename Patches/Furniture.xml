@@ -14,12 +14,6 @@
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="GL_Bookshelf"]/designationCategory</xpath>
-					<value>
-						<designationCategory>Misc</designationCategory>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="GL_Bookshelf"]/comps/li[@Class = "CompProperties_Facility"]/statOffsets/ResearchSpeedFactor</xpath>
 					<value>
 						<ResearchSpeedFactor>0.05</ResearchSpeedFactor>
@@ -31,29 +25,6 @@
 						<researchPrerequisites>
 							<li>ComplexFurniture</li>
 						</researchPrerequisites>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[
-						@Name="RGKFurnitureBase" or
-						defName="WardrobeA" or 
- 						defName="GL_TablewareShelf" or 
-						defName="GL_Cupboard" or
-						defName="RGK_Manger" or 
-						defName="RGK_DogBowl" or 
-						defName="GL_Locker" or 
-						defName="RKGWineRackB"]/designationCategory
-					</xpath>
-					<value>
-						<designationCategory>Furniture</designationCategory>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[
-						defName="GL_DoorFrame"]/designationCategory
-					</xpath>
-					<value>
-						<designationCategory>OldStyleDeco</designationCategory>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">
