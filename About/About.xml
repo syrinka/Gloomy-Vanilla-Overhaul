@@ -11,7 +11,7 @@
 	</supportedVersions>
 	<modDependencies>
 		<li>
-			<packageId>Solaris.FurnitureBase.revamped</packageId>
+			<packageId>Solaris.FurnitureBase</packageId>
 			<displayName>Gloomy Furniture</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/1558635181</steamWorkshopUrl>
 		</li>
@@ -22,7 +22,7 @@
 		<li>4loris4.MoreLinkables</li>
 		<li>Dalrae.GloomyDeco</li>
 	</loadAfter>
-	<packageId>zymex.GloomyVanillaOverhaul</packageId>
+	<packageId>zymex.GloomyVanillaOverhaul.revamped</packageId>
 	<description>
 	[Royal version] TEASER There will be a Royal Dlc update at some point, to make royal dlc play more nicly with gloomy mods, and get more use of it.
 	Also maybe i few new items, i mean comeon? Royals are made for a gloomy theme!
