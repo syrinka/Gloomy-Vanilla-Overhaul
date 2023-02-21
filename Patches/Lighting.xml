@@ -26,6 +26,13 @@
 						<Beauty>10</Beauty>
 					</value>
 				</li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="GL_Bonfire"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Temperature</designationCategory>
+                    </value>
+                </li>
 				
 				<!-- Lamps -->
 				<li Class="PatchOperationReplace">
