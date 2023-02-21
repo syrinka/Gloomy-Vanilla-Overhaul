@@ -7,12 +7,14 @@
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
+				<!-- reset all designation category -->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef/designationCategory[text()="OldStyleFurniture"]</xpath>
 					<value>
 						<designationCategory Inherit="false" />
 					</value>
 				</li>
+				<!-- recategorize -->
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
 						defName="GL_Wall" or
@@ -62,6 +64,7 @@
 						<designationCategory>Furniture</designationCategory>
 					</value>
 				</li>
+				<!-- remove unrelated recipe and work -->
 				<li Class="PatchOperationRemove">
 					<xpath>
 						Defs/*[self::RecipeDef or self::WorkGiverDef]//li[
