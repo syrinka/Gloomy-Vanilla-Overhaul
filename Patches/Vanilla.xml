@@ -436,6 +436,31 @@
                 </li>
  
                 <!-- Benches -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TableButcher"]/graphicData</xpath>
+                    <value>
+                        <graphicData>
+                            <texPath>Things/Building/Production/GL_TableButcher</texPath>
+                            <graphicClass>Graphic_Multi</graphicClass>
+                            <drawSize>4</drawSize>
+                            <shaderType>CutoutComplex</shaderType>
+                            <damageData>
+                                <cornerTL>Damage/Corner</cornerTL>
+                                <cornerTR>Damage/Corner</cornerTR>
+                                <cornerBL>Damage/Corner</cornerBL>
+                                <cornerBR>Damage/Corner</cornerBR>
+                            </damageData>
+                        </graphicData>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TableButcher"]/size</xpath>
+                    <value>
+                        <size>(2,1)</size>
+                    </value>
+                </li>
  
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="HandTailoringBench"]/graphicData</xpath>
