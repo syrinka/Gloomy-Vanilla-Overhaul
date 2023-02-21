@@ -57,6 +57,26 @@
 					<value>
 					<designationCategory Inherit="false" />
 					</value>
+				</li><li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[
+						defName="GL_Wall" or
+						defName="GL_VentWall" or
+						defName="GL_WindowWall" or
+						defName="GL_FlowerWall" or
+						defName="RGK_Door" or
+						defName="RGK_DoorOld" or
+						defName="RGK_WoodFence"
+						]/designationCategory
+					</xpath>
+					<value>
+						<designationCategory>Structure</designationCategory>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef/designationCategory[text()="OldStyleFurniture"]</xpath>
+					<value>
+						<designationCategory Inherit="false" />
+					</value>
 				</li>
 				<li Class="PatchOperationRemove">
 					<xpath>

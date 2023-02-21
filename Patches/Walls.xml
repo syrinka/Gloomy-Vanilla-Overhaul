@@ -8,12 +8,6 @@
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef/designationCategory[text()="OldStyleFurniture"]</xpath>
-					<value>
-						<designationCategory>Structure</designationCategory>
-					</value>
-				</li>
-				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="GL_DoorFrame"]/statBases/Beauty</xpath>
 					<value>
 						<Beauty>5</Beauty>
