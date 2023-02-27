@@ -48,7 +48,7 @@
 				<li Class="PatchOperationSequence">
 					<operations>
 						<li Class="PatchOperationReplace">
-							<xpath>Defs/ThingDef[defName="FueledStove"]/size</xpath>
+							<xpath>Defs/ThingDef[defName="FueledStove" or defName="ElectricStove"]/size</xpath>
 							<value>
 								<size>(2,1)</size>
 							</value>
