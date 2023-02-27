@@ -44,6 +44,8 @@
 				</li>
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[
+						defName="RGK_EndTableWithLamp" or
+						defName="RGK_EndTableWithLampE" or
 						defName="WardrobeA" or 
  						defName="GL_TablewareShelf" or 
 						defName="GL_Cupboard" or
@@ -53,12 +55,22 @@
 						defName="RKGWineRackB" or
 						defName="RGK_lamp" or
 						defName="RGK_lampE" or
-						defName="GL_Wall_Lamp" or
-						defName="GL_Wall_LampE" or
 						defName="RGK_Street_Lamp" or
 						defName="RGK_Street_Lamp_L" or
 						defName="RGK_Street_Lamp_Seven" or
 						defName="RGK_Street_Lamp_SevenE"]/designationCategory
+					</xpath>
+					<value>
+						<designationCategory>Furniture</designationCategory>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+						defName="GL_Wall_Lamp" or
+						defName="GL_Wall_LampE" or
+						defName="GL_Bench" or
+						defName="RGK_MiniTableA" or
+						defName="RGK_MiniTableB"]
 					</xpath>
 					<value>
 						<designationCategory>Furniture</designationCategory>
