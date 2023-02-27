@@ -499,7 +499,7 @@
                 </li>
  
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="FueledSmithy"]/graphicData</xpath>
+                    <xpath>Defs/ThingDef[defName="FueledSmithy" or defName="ElectricSmithy"]/graphicData</xpath>
                     <value>
                         <graphicData>
                             <texPath>Things/Building/Production/GL_Smithy</texPath>
